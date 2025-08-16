@@ -1,6 +1,8 @@
 from enum import Enum
 from fastapi import FastAPI
 
+# Enum 
+# 관련된 상수들을 하나의 그룹으로 묶어서 정의하는 데이터 타입
 class ModelName(str, Enum):
     alexnet = "alexnet"
     resnet = "resnet"
